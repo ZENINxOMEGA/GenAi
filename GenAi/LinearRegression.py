@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-X = pd.read_csv('.C:\OMEGA\Python\GenAi\Linear_X_Train.csv').values.reshape((-1,))
-y = pd.read_csv('."C:\OMEGA\Python\GenAi\Linear_Y_Train.csv"').values.reshape((-1,))
+X = pd.read_csv('./Training Data/Linear_X_Train.csv').values.reshape((-1,))
+y = pd.read_csv('./Training Data/Linear_Y_Train.csv').values.reshape((-1,))
 
 plt.scatter(X,y)
 plt.show()
