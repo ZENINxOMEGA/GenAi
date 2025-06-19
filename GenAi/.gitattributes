@@ -1,0 +1,3 @@
+GenAi/*.py linguist-detectable=true
+*.py linguist-detectable=true
+*.csv linguist-documentation=false
